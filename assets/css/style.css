@@ -17,7 +17,6 @@ header {
     justify-content: space-between;
 
     padding: 48px;
-
 }
 
 button {
@@ -35,5 +34,73 @@ button {
     font-weight: 600;
     font-size: 16px;
     line-height: 125%;
+}
+
+form {
+    display: flex;
+
+    padding: 0 48px;
+}
+
+.container-habits {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+
+}
+
+.icons-habit {
+    width: 64px;
+    height: 64px;
+
+    font-size: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-days {
+    display: flex;
+    gap: 48px;
+    margin-left: 32px;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.day div {
+    margin-bottom: 8px;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    line-height: 125%;
+
+    color: #a1a1aa;
+
+    text-align: center;
+}
+
+input {
+    appearance: none;
+    -webkit-appearance: none;
+
+    width: 64px;
+    height: 64px;
+
+    border: 2px solid #27272a;
+    border-radius: 8px;
+
+    background: #18181b;
+}
+
+input:checked {
+    background: #8b5cf8;
+    border: 2px solid #a78bfa;
 
 }
