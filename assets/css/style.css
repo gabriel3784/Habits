@@ -17,6 +17,11 @@ header {
     justify-content: space-between;
 
     padding: 48px;
+
+    position: fixed;
+
+    background-color: #09090a;
+    width: 100%;
 }
 
 button {
@@ -39,10 +44,11 @@ button {
 form {
     display: flex;
 
-    padding: 0 48px;
+    padding: 182px 48px 48px;
+    width: fit-content;
 }
 
-.container-habits {
+.habits {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -51,7 +57,7 @@ form {
 
 }
 
-.icons-habit {
+.habit {
     width: 64px;
     height: 64px;
 
@@ -62,7 +68,7 @@ form {
     justify-content: center;
 }
 
-.container-days {
+.days {
     display: flex;
     gap: 48px;
     margin-left: 32px;
@@ -103,4 +109,10 @@ input:checked {
     background: #8b5cf8;
     border: 2px solid #a78bfa;
 
+}
+
+@media (max-width: 570px) {
+    button div {
+        display: none;
+    }
 }

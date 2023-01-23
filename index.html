@@ -22,38 +22,30 @@
 
         <button>
             <img src="./assets/plus.svg" alt="ícone sinal de mais roxo">
-            Registrar o meu dia
+
+            <div>
+                Registrar o meu dia
+            </div>
+            
         </button> 
     </header>
 
     <form>
-        <div class="container-habits">
-            <div class="icons-habit">🏃🏽‍♂️</div>
-            <div class="icons-habit">💧</div>
-            <div class="icons-habit">🍕</div>
+        <div class="habits">
+            <div class="habit" data-name="run">🏃🏽‍♂️</div>
+            <div class="habit" data-name="water">💧</div>
+            <div class="habit" data-name="food">🍕</div>
+            <div class="habit" data-name="journal">📰</div>
+            <div class="habit" data-name="coffee">☕</div>
+
+
         </div>
 
-        <div class="container-days">
-            <div class="day">
-                <div>24/01</div>
-                <input type="checkbox" name="sports">
-                <input type="checkbox" name="water">
-                <input type="checkbox" name="food">
-            </div>
-
-            <div class="day">
-                <div>25/01</div>
-                <input type="checkbox" name="sports">
-                <input type="checkbox" name="water">
-                <input type="checkbox" name="food">
-            </div>
-        </div>
+        <div class="days"></div>
     </form>
 
-    
-
-
-
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="./assets/scripts/main.js"></script>
      
   </body>
 </html>
